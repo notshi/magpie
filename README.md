@@ -33,15 +33,15 @@ Deadline: 10th August 2023
 
 ### Issue #8
 Theme: Re:Birth  
-Deadline: 11th September 2022
+Deadline: 11th September 2022  
 Published: 5th October 2022
 
 ### Issue #7
-Theme: Celebrate Autism
+Theme: Celebrate Autism  
 Published: Wunter 2022
 
 ### Issue #6
-Theme: Public Art in Bradford 
+Theme: Public Art in Bradford  
 Published: Autumn 2021
 
 ### Issue #5
@@ -49,21 +49,21 @@ Theme: City of Culture
 Published: Winter 2020
 
 ### Issue #4
-Theme: Transport in Bradford
-Deadline: 29th February 2020
+Theme: Transport in Bradford  
+Deadline: 29th February 2020  
 Posted online due to pandemic
 
 ### Issue #3
-Theme: Occult
+Theme: Occult  
 Published: 24th October 2019
 
 ### Issue #2
-Theme: Panic Climate
-Deadline: 21st July 2019
+Theme: Panic Climate  
+Deadline: 21st July 2019  
 Published: 21st August 2019
 
 ### Issue #1
-Theme: Still Mean
+Theme: Still Mean  
 Published: 1st May 2019
 
 # Archive
