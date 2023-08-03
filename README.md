@@ -6,9 +6,10 @@ However, we always publish one in time for the Bradford Zine Fair.
 
 The Magpie is an ‘occasional' publication - so not suitable for advertising immanent events.
 
-Contributions usually have a theme but are always related to Bradford - with a humorous, radical or satirical edge.  
-Articles can also be poems, photos and drawings. Please supply who to credit for articles.
+There is usually a theme but contributions are always related to Bradford - with a humorous, radical or satirical edge.  
+Articles can be stories, articles, poems, drawings, photos, sketches. Please supply who to credit (anon if you want).
 
+Micro: 20 - 50 words  
 Small: 50 - 100 words  
 Quarter page: 300 - 500 words  
 Half page: 600 - 1000 words  
@@ -19,9 +20,23 @@ Printing is self-funded and each issue is estimated at 20-30 squids.
 Print run of 800 - 1000 copies at the Shipley Print Studio.  
 Distribution across BD for free by HowDo?! Yorkshire.
 
-Edited & designed by: shi (as of Issue #9)
+Edited & designed by shi (as of Issue #9).
+
+# Current issue
+
+### Issue #9
+Theme: Sound  
+Deadline: 10th August 2023
+
+# Previous issues
+
+### Issue #8
+Theme: Re:Birth  
+Deadline: 11th September 2022
 
 # Archive
 ![Screenshot 2023-07-24 at 11-12-37 The Magpie - We do know what this is but remain unsure of the  Facebook](https://github.com/notshi/magpie/assets/1515961/d924949a-cd71-4f9e-97b6-b8cca2085bfd)
 
-
+## Socials
+https://www.instagram.com/bradfordmagpie/  
+https://www.facebook.com/magpiemansions
