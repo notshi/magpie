@@ -22,6 +22,6 @@ Distribution across BD for free by HowDo?! Yorkshire.
 Edited & designed by: shi (as of Issue #9)
 
 # Archive
-![Screenshot 2023-07-24 at 11-12-37 The Magpie - We do know what this is but remain unsure of the  Facebook](https://github.com/notshi/magpie/assets/1515961/176d4ebf-1d32-4124-b175-0321fa9c9d6c)
+![Screenshot 2023-07-24 at 11-12-37 The Magpie - We do know what this is but remain unsure of the  Facebook](https://github.com/notshi/magpie/assets/1515961/d924949a-cd71-4f9e-97b6-b8cca2085bfd)
 
 
