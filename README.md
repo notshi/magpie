@@ -6,7 +6,7 @@ However, we always publish one in time for the Bradford Zine Fair.
 
 The Magpie is an ‘occasional' publication - so not suitable for advertising immanent events.
 
-There is usually a theme but contributions are always related to Bradford - with a humorous, radical or satirical edge.  
+There is usually a theme but contributions are always related to Bradford - with a humorous, radical or satirical edge. Please send contributions in a word document, text file or an email; so long as we can copy & paste!  
 Articles can be stories, articles, poems, drawings, photos, sketches.  
 Please supply who to credit (anon if you want).
 
