@@ -41,7 +41,7 @@ Theme: Celebrate Autism
 Published: 24th February (Wunter) 2022
 
 ### Issue #6
-Theme: Public Art in Bradford  
+Theme: Street Art in Bradford  
 Published: Autumn 2021
 
 ### Issue #5
