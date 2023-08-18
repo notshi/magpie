@@ -51,7 +51,7 @@ Published: 12th October (Winter) 2020
 ### Issue #4
 Theme: Transport in Bradford  
 Deadline: 29th February 2020  
-Published: 12th October (Spring) 2020  
+Published: 19th March (Spring) 2020  
 *Posted online due to pandemic*
 
 ### Issue #3
