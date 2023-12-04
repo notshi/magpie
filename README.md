@@ -25,18 +25,21 @@ Edited & designed by shi (as of Issue #9).
 
 # Current issue
 
-### Issue #9
+### Issue #10
 Theme: Name  
-Deadline: 10th February 2024
+Deadline: 10th February 2024  
 Published:
 
 # Previous issues
 
-### Issue #8
+### Issue #9
 
 Theme: Sound  
-Deadline: 10th August 2023
+Deadline: 10th August 2023  
 Published: 28th August 2023
+
+
+### Issue #8
 
 Theme: Re:Birth  
 Deadline: 11th September 2022  
