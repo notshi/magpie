@@ -17,8 +17,8 @@ Half page: 600 - 1000 words
 
 Dimensions is double-sided A3 (297 x 420mm).  
 Risographed in black monotone so please bear this in mind when sending artwork through.  
-Printing is self-funded and each issue costs 120 squids (includes folding).  
-Print run of 800 - 1000 copies at the [Footprint Workers Co-op](https://www.footprinters.co.uk/).  
+Printing is currently self-funded and each issue costs around £130.00 (includes folding).  
+Print run of 1000 copies at the [Footprint Workers Co-op](https://www.footprinters.co.uk/).  
 Distribution across BD for free by [HowDo?! Yorkshire](https://howdoyorkshire.com/).
 
 Edited & designed by shi (as of Issue #9).
@@ -28,8 +28,8 @@ Edited & designed by shi (as of Issue #9).
 ### Issue #10
 Theme: Name  
 Deadline: 24th February 2024  
-Published: 25th March 2024
-Cost: £196.00 (delay and price increase due to folding by Leeds Die Cutting)
+Published: 25th March 2024  
+Cost: £196.00 (*delay and price increase due to folding by Leeds Die Cutting*)
 
 # Previous issues
 
@@ -37,7 +37,7 @@ Cost: £196.00 (delay and price increase due to folding by Leeds Die Cutting)
 
 Theme: Sound  
 Deadline: 10th August 2023  
-Published: 28th August 2023
+Published: 28th August 2023  
 Cost: £133.00
 
 ### Issue #8
