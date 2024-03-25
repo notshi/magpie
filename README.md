@@ -27,8 +27,8 @@ Edited & designed by shi (as of Issue #9).
 
 ### Issue #10
 Theme: Name  
-Deadline: 19th February 2024  
-Published:
+Deadline: 24th February 2024  
+Published: 25th March 2024
 
 # Previous issues
 
