@@ -29,6 +29,7 @@ Edited & designed by shi (as of Issue #9).
 Theme: Name  
 Deadline: 24th February 2024  
 Published: 25th March 2024
+Cost: £196.00 (delay and price increase due to folding by Leeds Die Cutting)
 
 # Previous issues
 
@@ -37,7 +38,7 @@ Published: 25th March 2024
 Theme: Sound  
 Deadline: 10th August 2023  
 Published: 28th August 2023
-
+Cost: £133.00
 
 ### Issue #8
 
