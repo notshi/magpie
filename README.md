@@ -25,23 +25,27 @@ Edited & designed by shi (as of Issue #9).
 
 # Current issue
 
+### Issue #11
+Theme: Ghosts  
+Deadline: 1st August 2024  
+Published:  
+Cost: £0
+
+# Previous issues
+
 ### Issue #10
 Theme: Name  
 Deadline: 24th February 2024  
 Published: 25th March 2024  
 Cost: £196.00 (*delay and price increase due to folding by Leeds Die Cutting*)
 
-# Previous issues
-
 ### Issue #9
-
 Theme: Sound  
 Deadline: 10th August 2023  
 Published: 28th August 2023  
 Cost: £133.00
 
 ### Issue #8
-
 Theme: Re:Birth  
 Deadline: 11th September 2022  
 Published: 5th October 2022
