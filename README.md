@@ -85,5 +85,6 @@ Published: 1st May 2019
 ![Screenshot 2023-07-24 at 11-12-37 The Magpie - We do know what this is but remain unsure of the  Facebook](https://github.com/notshi/magpie/assets/1515961/d924949a-cd71-4f9e-97b6-b8cca2085bfd)
 
 ## Socials
+*shi currently does not have access to either of the following.*  
 https://www.instagram.com/bradfordmagpie/  
 https://www.facebook.com/magpiemansions
