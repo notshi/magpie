@@ -36,7 +36,7 @@ Cost: £0
 ### Issue #10
 Theme: Name  
 Deadline: 24th February 2024  
-Published: 25th March 2024  
+Published: 25th March (Spring-ish) 2024  
 Cost: £196.00 (*delay and price increase due to folding by Leeds Die Cutting*)
 
 ### Issue #9
