@@ -37,7 +37,7 @@ Cost: £
 Theme: Ghosts  
 Deadline: 1st August 2024  
 Published: 11th September 2024  
-Cost: £162 (*Footprinters found a cheaper option for folding*)
+Cost: £162.00 (*Footprinters found a cheaper option for folding*)
 
 ### Issue #10
 Theme: Name  
