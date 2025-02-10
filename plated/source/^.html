@@ -2,8 +2,12 @@
 #^------------------------------
 #^html trim=ends
 <!DOCTYPE html>
-<html>
-<head>{head}</head>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="The Magpie is Bradford's Radical News Sheet. 1000 copies distributed free in venues around the City Centre and across West Yorkshire. Edits and Design by shi, printed by Footprint Workers Co-op and distributed by HowDo?!Yorkshire. Contributions by Bradfordians, about Bradford.">
+    {head}
+</head>
 <body>{body}</body>
 </html>
 
@@ -19,9 +23,38 @@
 #^------------------------------
 #^title trim=ends
 
-Title is missing.
+The Magpie is Bradford's Radical News Sheet
 
 #^------------------------------
 #^body trim=ends
 
-Body is missing.
+<div class="home">You might want to go <a href="{_root}index.html">home</a>.</div>
+
+
+
+#^email trim=ends
+<a href="mailto:notshi@gmail.com">Email</a>
+
+#^instagram trim=ends
+<a href="https://instagram.com/bradfordmagpie/">Instagram</a>
+
+#^about_text trim=ends form=markdown
+The Magpie is Bradford's *Radical* News Sheet. 1000 copies distributed free in venues around the City Centre and across West Yorkshire. Edits and Design by *shi*, printed by [**Footprint Workers Co-op**](https://www.footprinters.co.uk/) and distributed by [**HowDo?!Yorkshire**](https://howdoyorkshire.com/). Contributions by Bradfordians, about Bradford.
+
+#^footer trim=ends
+<footer class="foot_content" id="about">
+    <div class="row">
+        <div class="about_wrap">
+            <div class="about"><h3>about</h3></div>
+            <div class="about_text">
+                {about_text}
+            </div>
+        </div>
+        <div class="cc_wrap">
+            <div class="cc_text">
+                {email} | {instagram} 
+            </div>
+            <div class="top"><a href="#">Back up</a></div>
+        </div>
+    </div>
+</footer>

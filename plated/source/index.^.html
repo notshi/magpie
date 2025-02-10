@@ -2,13 +2,103 @@
 #^------------------------------
 #^title trim=ends
 
-This is the title
+The Magpie is Bradford's Radical News Sheet
 
 #^------------------------------
-#^body trim=ends form=markdown
+#^body trim=ends
 
-Welcome
--------
+<div class="main_wrap">
+	<main id="main" class="main_content row">
+		<img src="{_root}data/magpie_header.png"/>
+		<div class="link_wrap" id="news">{news}</div>
+		<div class="link_wrap" id="releases">{releases}</div>
+	</main>
+	{footer}
+</div>
 
-Here is a web page rendered from markdown.
+#^news trim=ends
+<div class="cont_wrap">
+	<div class="title"><h3>news</h3></div>
+	{news_text}
+</div>
 
+#^news_text
+<div class="blog_wrap">
+	<div class="blog_date">10.2.2025</div> 
+	We will be putting out a call out for Issue #12 pretty soon!
+	<div class="blog_data">
+		
+	</div>
+</div>
+
+#^releases trim=ends
+<div class="cont_wrap">
+	<div class="title"><h3>issues</h3></div>
+	{releases_text}
+</div>
+
+#^releases_text trim=ends form=markdown
+
+<table class="tunes current old">
+	<tr>
+		<th class="date">DATE<div></div></th>
+		<th>ISSUE<div></div></th>
+		<th class="track">LINK<div></div></th>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>11 Sep 2024</td>
+		<td>ISSUE #11 - Ghosts</td>
+		<td><a href="https://drive.google.com/file/d/1Ap0QltmlDWcf7kftuMwE3hCTd9QZyh0y/view?usp=sharing">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>25 Mar 2024</td>
+		<td>ISSUE #10 - Name</td>
+		<td><a href="https://drive.google.com/file/d/1nd0Wp9xe2PVNX8ZkY2xx2A8gbPlr61m-/view?usp=sharing">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>28 Aug 2023</td>
+		<td>ISSUE #9 - Sound</td>
+		<td><a href="https://drive.google.com/file/d/1B7jVlhBj0NhO1HgYWZMZXFsk350esevE/view?usp=sharing">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>5 Oct 2022</td>
+		<td>ISSUE #8 - Re:Birth</td>
+		<td><a href="#">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>24 Feb 2022</td>
+		<td>ISSUE #7 - Celebrate Autism</td>
+		<td><a href="https://drive.google.com/file/d/1qAUvlDMUlgbWMBEMToaE2WEopd8RfAkb/view?usp=drive_link">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>Autumn 2021</td>
+		<td>ISSUE #6 - Street Art in Bradford</td>
+		<td><a href="https://drive.google.com/file/d/1yuyTvssMrWLz9HuKI5npaWfbtRPTz1lv/view?usp=drive_link">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>12 Oct 2020</td>
+		<td>ISSUE #5 - City of Culture</td>
+		<td><a href="https://drive.google.com/file/d/1stfRNDpqMCpRZtIAFD73k6kNB6U7VEo4/view?usp=drive_link">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>19 Mar 2020</td>
+		<td>ISSUE #4 - Transport in Bradford</td>
+		<td><a href="https://drive.google.com/file/d/1FJDFm53OM3g3X28KxkY9LpFkCO6-uDcX/view?usp=drive_link">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>24 Oct 2019</td>
+		<td>ISSUE #3 - Occult</td>
+		<td><a href="https://drive.google.com/file/d/1llmP2D4UQVpeteZ0CkgGZNIUcNoCFV99/view?usp=drive_link">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>21 Aug 2019</td>
+		<td>ISSUE #2 - Panic Climate</td>
+		<td><a href="https://drive.google.com/file/d/1CcKDvh7EEgvyIR_-qFPS4oDIR0HRITxa/view?usp=drive_link">DOWNLOAD</a></td>
+	</tr>
+	<tr>
+		<td>1 May 2019</td>
+		<td>ISSUE #1 - Still Mean</td>
+		<td><a href="https://drive.google.com/file/d/1f6Kp6FW93hBmKZB2Qs8Sl5C8AJBpFybB/view?usp=sharing">DOWNLOAD</a></td>
+	</tr>
+</table>
