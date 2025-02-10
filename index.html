@@ -1,28 +1,208 @@
 <!DOCTYPE html>
-<html>
-<head><title>This is the title</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="The Magpie is Bradford's Radical News Sheet. 1000 copies distributed free in venues around the City Centre and across West Yorkshire. Edits and Design by shi, printed by Footprint Workers Co-op and distributed by HowDo?!Yorkshire. Contributions by Bradfordians, about Bradford.">
+    <title>The Magpie is Bradford's Radical News Sheet</title>
 <style>
 
-/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}article,footer,header,main,menu,nav,section,summary{display:block;}
 
-body	{background:#f7f4fd; font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:#444; width:100%; padding:50px;}
-h1		{font-size:4em; font-weight:normal; color:#1400ff;}
-h2		{font-size:2em; font-weight:normal;}
+html    {font-size:18px; scroll-behavior:smooth; scroll-padding-top:100px;}
+body	{background:#eee; font-family:monospace; font-size:18px; font-weight:400; line-height:normal; color:#111; max-width:100%; overflow-x:hidden; padding:0; margin:0;}
+h1		{font-size:1.5em; font-weight:normal;}
+h2		{font-size:1.5em; font-weight:normal;}
+h3      {font-size:1.5em; font-weight:bold; color:#111; font-family:serif;}
+h4      {font-size:0.8em; font-style:italic; color:#111; letter-spacing:15px; text-transform:uppercase; margin-top:3em; margin-bottom:2em;}
+b		{font-weight:bold; font-weight:700;}
+i		{font-style:italic;}
+a		{color:#222; text-decoration:none; transition:all 0.5s ease-out;}
+a:hover	{background-color:#ddd;}
 
-a		{color:#1400ff;}
+*:focus {outline:2px solid transparent;}
+*:focus:not(:focus-visible) {outline:2px solid transparent; box-shadow:none;}
+*:focus-visible		{outline: 3px solid #918170;}	/* for overriding FF's dotted outline*/
+input:focus			{outline:2px solid transparent; box-shadow: 0 0 0 2px #918170;}
+input:focus-visible {outline:2px solid #918170; background-color:#fff; border-color:#918170;}
 
-a.bar	{color:#f7f4fd; background-color:#3a3a3a; border-radius:4px; padding:5px; text-decoration:none; border-bottom:none;}
-a.bar:hover	{background-color:#1400ff; border-bottom:none;}
+.aria-invisible {border:0; clip:rect(0 0 0 0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; width:1px;}
 
+.skip-link		{background:#665645; border-radius:0 0 6px 6px; color:#fff; height:30px; left:50%; padding:6px; position:absolute; transform:translateY(-100%); transition:transform 0.3s;}
+.skip-link:focus{transform:translateY(0%);}
 
-.nav	{display:inline-block; vertical-align:top; width:50%;}
-.nav:nth-of-type(2)	{text-align:right;}
+.row            {max-width:1170px; margin-right:auto; margin-left:auto; display:flex; flex-flow:row wrap;}
+.head_content   {position:sticky; top:0; background-color:#f7f4fd; z-index:3;}
+.main_content   {min-height:400px; padding-top:20px; padding-bottom:20px;}
+.foot_content   {}
+.link_wrap		{width:100%;}
+.cont_wrap		{margin-bottom:2em;}
+.nav_wrap,
+.cc_wrap,
+.funder_wrap    {display:flex; align-items:center; justify-content:space-between; width:100%;}
+.cc_wrap        {align-items:baseline; padding:20px 0 40px 0;}
+.funder_wrap    {align-items:center; padding:20px 0;}
+.nav_content    {display:flex; padding-left:30px; align-items: baseline; justify-content:space-between; width:40%;}
+.logo           {height:100px; align-items:center; justify-content:center; display:flex;}
+.more           {text-align:center; width:100%; padding:30px 0; font-size:26px;}
 
-.line, .blog_wrap	{border-top:1px dashed #1400ff; margin-top:40px; margin-bottom:40px; position:relative;}
-.blog_info	{position:absolute; right:10px; top:10px;}
+.title			{margin:1em 0; border-bottom:1px solid #111; padding-bottom:1em;}
+.blog_wrap		{margin:1.5em 0;}
+.blog_date		{margin-bottom:0.6em; font-size:14px;}
+.blog_data		{display:flex; margin-top:1em;}
+.blog_data img	{width:30%; margin-right:1em;}
 
-</style></head>
-<body><h2 id="welcome">Welcome</h2>
-<p>Here is a web page rendered from markdown.</p>
-</body>
+.about_wrap     {margin-top:1.5em; margin-bottom:1.5em; width:100%; background:#fbfbfb; padding:1.5em;}
+.about_text     {font-size:18px; padding-top:20px; line-height:1.35em; font-family:monospace;}
+.about_text b   {font-weight:500;}
+.about_text_title   {font-weight:300; margin-bottom:20px; font-style:italic;}
+.about_text_zine    {font-size:18px; text-align:right;}
+
+table.tunes		{width:100%;}
+table.tunes	tr	{height:1em;}
+table.tunes	tr:hover td		{background-color:#efe9f9;}
+table.tunes.old	tr:hover td	{background-color:transparent;}
+table.tunes th		{color:#666; font-size:14px; padding:0.5em 0 0.5em 0.5em; position:relative;}
+table.tunes th.date	{width:13em;}
+table.tunes th div	{position:absolute; pointer-events:none; border-bottom:1px solid #aaa; width:calc(100% - 1.5625em); bottom:0; left:0.5em;}
+table.tunes td		{vertical-align:top; padding:0.5em 0 0.5em 0.5em;}
+table.tunes.current td	{vertical-align:middle;}
+
+@media (min-width: 360px) and (max-width: 767.98px) {
+html            {font-size:18px;}
+body            {padding:0.5em 1.5em; font-size:1.0rem;}
+.head_content   {display:none;}
+.mob_content    {display:block;}
+h2              {font-size:1.2rem; line-height:inherit;}
+.about_text     {font-size:1.0rem; line-height:inherit;}
+h1				{font-size:1.5rem; line-height:inherit;}
+.cc_wrap        {display:block;}
+.cc_text		{margin-bottom:20px;}
+.mob_cc			{font-size:1.0rem;}
+.funder_wrap    {flex-flow:column;}
+.funder_img     {width:initial;}
+.funder_text    {padding:20px 0 0 0;}
+.cont_wrap p	{font-size:0.85rem;}
+table.tunes th.date 		{width:5em; padding-left:0;}
+table.tunes th.date div 	{left:0;}
+table.tunes.current td		{vertical-align:top; padding:0.5em;}
+table.tunes td:first-of-type{padding-left:0;}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+body            {padding:0.5em 1.5em; font-size:1.0rem;}
+.nav_content    {padding:0;}
+h1, h2			{font-size:1.5rem; line-height:inherit;}
+.cc_wrap > div  {font-size:0.8em;}
+.cc_text        {width:85%;}
+.mob_cc			{font-size:1.0rem;}
+.funder_wrap    {flex-flow:wrap; justify-content:left;}
+.funder_text    {padding:20px 0 0 0;}
+.cont_wrap p	{font-size:0.85rem;}
+table.tunes th.date 		{width:5em; padding-left:0;}
+table.tunes th.date div 	{left:0;}
+table.tunes.current td		{vertical-align:top; padding:0.5em;}
+table.tunes td:first-of-type{padding-left:0;}
+}
+
+</style>
+</head>
+<body><div class="main_wrap">
+	<main id="main" class="main_content row">
+		<img src="./data/magpie_header.png"/>
+		<div class="link_wrap" id="news"><div class="cont_wrap">
+	<div class="title"><h3>news</h3></div>
+	<div class="blog_wrap">
+	<div class="blog_date">10.2.2025</div> 
+	We will be posting a call out for Issue #12 pretty soon!
+	<div class="blog_data">
+		
+	</div>
+</div>
+
+</div></div>
+		<div class="link_wrap" id="releases"><div class="cont_wrap">
+	<div class="title"><h3>issues</h3></div>
+	<table class="tunes current old">
+    <tr>
+        <th class="date">DATE<div></div></th>
+        <th>ISSUE<div></div></th>
+        <th class="track">LINK<div></div></th>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>11 Sep 2024</td>
+        <td>ISSUE #11 - Ghosts</td>
+        <td><a href="https://drive.google.com/file/d/1Ap0QltmlDWcf7kftuMwE3hCTd9QZyh0y/view?usp=sharing">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>25 Mar 2024</td>
+        <td>ISSUE #10 - Name</td>
+        <td><a href="https://drive.google.com/file/d/1nd0Wp9xe2PVNX8ZkY2xx2A8gbPlr61m-/view?usp=sharing">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>28 Aug 2023</td>
+        <td>ISSUE #9 - Sound</td>
+        <td><a href="https://drive.google.com/file/d/1B7jVlhBj0NhO1HgYWZMZXFsk350esevE/view?usp=sharing">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>5 Oct 2022</td>
+        <td>ISSUE #8 - Re:Birth</td>
+        <td><a href="#">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>24 Feb 2022</td>
+        <td>ISSUE #7 - Celebrate Autism</td>
+        <td><a href="https://drive.google.com/file/d/1qAUvlDMUlgbWMBEMToaE2WEopd8RfAkb/view?usp=drive_link">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>Autumn 2021</td>
+        <td>ISSUE #6 - Street Art in Bradford</td>
+        <td><a href="https://drive.google.com/file/d/1yuyTvssMrWLz9HuKI5npaWfbtRPTz1lv/view?usp=drive_link">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>12 Oct 2020</td>
+        <td>ISSUE #5 - City of Culture</td>
+        <td><a href="https://drive.google.com/file/d/1stfRNDpqMCpRZtIAFD73k6kNB6U7VEo4/view?usp=drive_link">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>19 Mar 2020</td>
+        <td>ISSUE #4 - Transport in Bradford</td>
+        <td><a href="https://drive.google.com/file/d/1FJDFm53OM3g3X28KxkY9LpFkCO6-uDcX/view?usp=drive_link">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>24 Oct 2019</td>
+        <td>ISSUE #3 - Occult</td>
+        <td><a href="https://drive.google.com/file/d/1llmP2D4UQVpeteZ0CkgGZNIUcNoCFV99/view?usp=drive_link">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>21 Aug 2019</td>
+        <td>ISSUE #2 - Panic Climate</td>
+        <td><a href="https://drive.google.com/file/d/1CcKDvh7EEgvyIR_-qFPS4oDIR0HRITxa/view?usp=drive_link">DOWNLOAD</a></td>
+    </tr>
+    <tr>
+        <td>1 May 2019</td>
+        <td>ISSUE #1 - Still Mean</td>
+        <td><a href="https://drive.google.com/file/d/1f6Kp6FW93hBmKZB2Qs8Sl5C8AJBpFybB/view?usp=sharing">DOWNLOAD</a></td>
+    </tr>
+</table>
+</div></div>
+	</main>
+	<footer class="foot_content" id="about">
+    <div class="row">
+        <div class="about_wrap">
+            <div class="about"><h3>about</h3></div>
+            <div class="about_text">
+                <p>The Magpie is Bradford&#39;s <em>Radical</em> News Sheet. 1000 copies distributed free in venues around the City Centre and across West Yorkshire. Edits and Design by <em>shi</em>, printed by <a href="https://www.footprinters.co.uk/"><strong>Footprint Workers Co-op</strong></a> and distributed by <a href="https://howdoyorkshire.com/"><strong>HowDo?!Yorkshire</strong></a>. Contributions by Bradfordians, about Bradford.</p>
+
+            </div>
+        </div>
+        <div class="cc_wrap">
+            <div class="cc_text">
+                <a href="mailto:notshi@gmail.com">Email</a> | <a href="https://instagram.com/bradfordmagpie/">Instagram</a> 
+            </div>
+            <div class="top"><a href="#">Back up</a></div>
+        </div>
+    </div>
+</footer>
+</div></body>
 </html>
