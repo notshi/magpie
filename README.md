@@ -25,13 +25,19 @@ Edited & designed by shi (as of Issue #9).
 
 # Current issue
 
+### Issue #12
+Theme: Smell  
+Deadline: 5th March 2025  
+Published:    
+Cost: £
+
+# Previous issues
+
 ### Issue #11
 Theme: Ghosts  
 Deadline: 1st August 2024  
-Published:  
-Cost: £0
-
-# Previous issues
+Published: 11th September 2024  
+Cost: £162 (*Footprinters found a cheaper option for folding*)
 
 ### Issue #10
 Theme: Name  
