@@ -17,23 +17,34 @@ The Magpie is Bradford's Radical News Sheet
 </div>
 
 #^news trim=ends
-<div class="cont_wrap">
-	<div class="title"><h3>news</h3></div>
-	{news_text}
+<div class="news_cont">
+	{current_issue}{news_text}
 </div>
 
 #^news_text
-<div class="blog_wrap">
-	<div class="blog_date">10.2.2025</div> 
-	We will be posting a call out for Issue #12 pretty soon!
-	<div class="blog_data">
-		
+<div class="cont_wrap new">
+	<div class="title"><h3>News</h3></div>
+	<div class="blog_wrap">
+		<div class="blog_date">19.2.2025</div> 
+		Call out for Issue #12! We are very excited to be launching this next edition at the <a href="https://www.instagram.com/listerarttrail/">BD9 Lister Art Trail</a> in April, as part of the community exhibition, celebrating new and past issues of The Magpie.
+		<div class="blog_data">
+			<img src="{_root}data/instagram_12.png"/>
+		</div>
 	</div>
+</div>
+
+
+#^current_issue
+<div class="cont_wrap">
+	<div class="title"><h3>Latest Issue</h3></div>
+	<a href="https://drive.google.com/file/d/1Ap0QltmlDWcf7kftuMwE3hCTd9QZyh0y/view?usp=sharing">
+		<img src="{_root}data/issue11_thumb1.png"/>
+	</a>
 </div>
 
 #^releases trim=ends
 <div class="cont_wrap">
-	<div class="title"><h3>issues</h3></div>
+	<div class="title"><h3>Issues</h3></div>
 	{releases_text}
 </div>
 
