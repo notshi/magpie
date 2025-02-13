@@ -83,6 +83,10 @@ table.tunes th.date 		{width:5em; padding-left:0;}
 table.tunes th.date div 	{left:0;}
 table.tunes.current td		{vertical-align:top; padding:0.5em;}
 table.tunes td:first-of-type{padding-left:0;}
+
+.news_cont		{display:block;}
+.cont_wrap.new	{margin:0 auto; max-width:100%; margin-bottom:0.5em;}
+.cont_wrap		{margin-bottom:1em;}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -99,4 +103,8 @@ table.tunes th.date 		{width:5em; padding-left:0;}
 table.tunes th.date div 	{left:0;}
 table.tunes.current td		{vertical-align:top; padding:0.5em;}
 table.tunes td:first-of-type{padding-left:0;}
+
+.news_cont		{display:block;}
+.cont_wrap.new	{margin:0 auto; max-width:100%;}
+.cont_wrap		{margin-bottom:1em;}
 }
