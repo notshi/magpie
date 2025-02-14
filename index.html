@@ -50,9 +50,11 @@ input:focus-visible {outline:2px solid #918170; background-color:#fff; border-co
 .title			{margin:1em 0;}
 .blog_wrap		{margin:1.5em 0;}
 .blog_wrap a	{font-weight:bold;}
+.blog_wrap a:hover	{background:transparent;}
 .blog_date		{margin-bottom:0.6em; font-size:14px;}
 .blog_data		{display:flex; margin-top:1em;}
 .blog_data img	{width:500px; margin-right:1em;}
+.img_wrap		{border:1px solid #222; padding:1em;}
 
 .about_wrap     {margin-top:1.5em; margin-bottom:1.5em; width:100%; background:#fbfbfb; padding:1.5em;}
 .about_text     {font-size:18px; padding-top:20px; line-height:1.35em; font-family:monospace;}
@@ -67,9 +69,9 @@ table.tunes.old	tr:hover td	{background-color:transparent;}
 table.tunes th		{color:#666; font-size:14px; padding:0.5em 0 0.5em 0.5em; position:relative;}
 table.tunes th.date	{width:13em;}
 table.tunes th div	{position:absolute; pointer-events:none; border-bottom:1px solid #aaa; width:calc(100% - 1.5625em); bottom:0; left:0.5em;}
-table.tunes td		{vertical-align:top; padding:0.5em 0 0.5em 0.5em;}
+table.tunes td		{vertical-align:top; padding:0.5em 0 0.5em 0.5em; border-bottom:1px solid #ddd;}
 table.tunes.current td	{vertical-align:middle;}
-table.tunes a		{border:1px solid #aaa; font-size:16px; padding:5px 10px; border-radius:6px;}
+table.tunes a		{font-size:16px; padding:5px 10px; border-radius:6px;}
 table.tunes a:hover	{background-color:#fff;}
 
 @media (min-width: 360px) and (max-width: 767.98px) {
@@ -123,11 +125,24 @@ table.tunes td:first-of-type{padding-left:0;}
 	<main id="main" class="main_content row">
 		<img src="./data/magpie_header.png"/>
 		<div class="link_wrap" id="news"><div class="news_cont">
-	<div class="cont_wrap">
+	<div class="">
+<div class="cont_wrap">
+	<div class="title"><h3>Current call out</h3></div>
+	<div class="img_wrap">
+		<div class="">Theme: <b>Smell</b> (<i>history, encounters, memories, things</i>)</div>
+		<div class="">Deadline: <b>5th march 2025</b></div>
+	</div>
+</div>
+
+<div class="cont_wrap">
 	<div class="title"><h3>Latest Issue</h3></div>
-	<a href="https://drive.google.com/file/d/1Ap0QltmlDWcf7kftuMwE3hCTd9QZyh0y/view?usp=sharing">
-		<img src="./data/issue11_thumb1.png"/>
-	</a>
+	<div class="img_wrap">
+		<a href="https://drive.google.com/file/d/1Ap0QltmlDWcf7kftuMwE3hCTd9QZyh0y/view?usp=sharing">
+			<img src="./data/issue11_thumb1.png"/>
+		</a>
+	</div>
+</div>
+
 </div>
 <div class="cont_wrap new">
 	<div class="title"><h3>News</h3></div>
@@ -139,7 +154,6 @@ table.tunes td:first-of-type{padding-left:0;}
 		</div>
 	</div>
 </div>
-
 
 </div></div>
 		<div class="link_wrap" id="releases"><div class="cont_wrap">
