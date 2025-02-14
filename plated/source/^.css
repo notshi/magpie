@@ -44,9 +44,11 @@ input:focus-visible {outline:2px solid #918170; background-color:#fff; border-co
 .title			{margin:1em 0;}
 .blog_wrap		{margin:1.5em 0;}
 .blog_wrap a	{font-weight:bold;}
+.blog_wrap a:hover	{background:transparent;}
 .blog_date		{margin-bottom:0.6em; font-size:14px;}
 .blog_data		{display:flex; margin-top:1em;}
 .blog_data img	{width:500px; margin-right:1em;}
+.img_wrap		{border:1px solid #222; padding:1em;}
 
 .about_wrap     {margin-top:1.5em; margin-bottom:1.5em; width:100%; background:#fbfbfb; padding:1.5em;}
 .about_text     {font-size:18px; padding-top:20px; line-height:1.35em; font-family:monospace;}
@@ -61,9 +63,9 @@ table.tunes.old	tr:hover td	{background-color:transparent;}
 table.tunes th		{color:#666; font-size:14px; padding:0.5em 0 0.5em 0.5em; position:relative;}
 table.tunes th.date	{width:13em;}
 table.tunes th div	{position:absolute; pointer-events:none; border-bottom:1px solid #aaa; width:calc(100% - 1.5625em); bottom:0; left:0.5em;}
-table.tunes td		{vertical-align:top; padding:0.5em 0 0.5em 0.5em;}
+table.tunes td		{vertical-align:top; padding:0.5em 0 0.5em 0.5em; border-bottom:1px solid #ddd;}
 table.tunes.current td	{vertical-align:middle;}
-table.tunes a		{border:1px solid #aaa; font-size:16px; padding:5px 10px; border-radius:6px;}
+table.tunes a		{font-size:16px; padding:5px 10px; border-radius:6px;}
 table.tunes a:hover	{background-color:#fff;}
 
 @media (min-width: 360px) and (max-width: 767.98px) {
