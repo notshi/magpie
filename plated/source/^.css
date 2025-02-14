@@ -49,6 +49,7 @@ input:focus-visible {outline:2px solid #918170; background-color:#fff; border-co
 .blog_data		{display:flex; margin-top:1em;}
 .blog_data img	{width:500px; margin-right:1em;}
 .img_wrap		{border:1px solid #222; padding:1em;}
+.call_wrap		{background:#fbfbfb; padding:0.5em 1.5em 2em 1.5em; margin:1.5em 0;}
 
 .about_wrap     {margin-top:1.5em; margin-bottom:1.5em; width:100%; background:#fbfbfb; padding:1.5em;}
 .about_text     {font-size:18px; padding-top:20px; line-height:1.35em; font-family:monospace;}
