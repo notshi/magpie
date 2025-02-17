@@ -51,7 +51,7 @@ input:focus-visible {outline:2px solid #918170; background-color:#fff; border-co
 .img_wrap		{border:1px solid #222; padding:1em;}
 .call_wrap		{background:#fbfbfb; padding:0.5em 1.5em 2em 1.5em; margin:1.5em 0;}
 
-.about_wrap     {margin-top:1.5em; margin-bottom:1.5em; width:100%; background:#fbfbfb; padding:1.5em;}
+.about_wrap     {margin-top:1.5em; margin-bottom:1.5em; width:100%; background:url("{_root}/data/franklin_thumb1.png") no-repeat right bottom #fbfbfb; padding:1.5em;}
 .about_text     {font-size:18px; padding-top:20px; line-height:1.35em; font-family:monospace;}
 .about_text b   {font-weight:500;}
 .about_text_title   {font-weight:300; margin-bottom:20px; font-style:italic;}
@@ -84,6 +84,7 @@ h1				{font-size:1.5rem; line-height:inherit;}
 .funder_img     {width:initial;}
 .funder_text    {padding:20px 0 0 0;}
 .cont_wrap p	{font-size:0.85rem;}
+.about_wrap		{padding-bottom:6em;}
 table.tunes th.date 		{width:5em; padding-left:0;}
 table.tunes th.date div 	{left:0;}
 table.tunes.current td		{vertical-align:top; padding:0.5em;}
@@ -104,6 +105,7 @@ h1, h2			{font-size:1.5rem; line-height:inherit;}
 .funder_wrap    {flex-flow:wrap; justify-content:left;}
 .funder_text    {padding:20px 0 0 0;}
 .cont_wrap p	{font-size:0.85rem;}
+.about_wrap		{padding-bottom:6em;}
 table.tunes th.date 		{width:5em; padding-left:0;}
 table.tunes th.date div 	{left:0;}
 table.tunes.current td		{vertical-align:top; padding:0.5em;}
