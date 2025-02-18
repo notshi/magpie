@@ -93,7 +93,7 @@
   "_site": "{_root}",
   "_sourcename": "index.^.html",
   "body": "<div class=\"main_wrap\">\n\t<main id=\"main\" class=\"main_content row\">\n\t\t<img src=\"{_root}data/magpie_header.png\"/>\n\t\t<div class=\"link_wrap\" id=\"news\">{news}</div>\n\t\t<div class=\"link_wrap\" id=\"releases\">{releases}</div>\n\t</main>\n\t{footer}\n</div>",
-  "callout": "<div class=\"call_wrap\">\n\t<div class=\"title\"><h3>Current call out</h3></div>\n\t<div class=\"call_info\">\n\t\t<div class=\"\">Theme: <b>Smells</b> (<i>history, encounters, memories, things</i>)</div>\n\t\t<div class=\"\">Deadline: <b>5th march 2025</b></div>\n\t</div>\n</div>\n",
+  "callout": "<div class=\"call_wrap\">\n\t<div class=\"title\"><h3>Current call out</h3></div>\n\t<div class=\"call_info\">\n\t\t<div class=\"\">Theme: <b>Smells</b></div>\n\t\t<div class=\"\">Deadline: <b>5th march 2025</b></div>\n\t</div>\n</div>\n",
   "column": "<div class=\"\">\n{callout}\n{current_issue}\n</div>\n",
   "current_issue": "<div class=\"cont_wrap\">\n\t<div class=\"title\"><h3>Latest Issue</h3></div>\n\t<div class=\"img_wrap\">\n\t\t<a href=\"https://drive.google.com/file/d/1Ap0QltmlDWcf7kftuMwE3hCTd9QZyh0y/view?usp=sharing\">\n\t\t\t<img src=\"{_root}data/issue11_thumb1.png\"/>\n\t\t</a>\n\t</div>\n</div>\n",
   "news": "<div class=\"news_cont\">\n\t{column}{news_text}\n</div>",
