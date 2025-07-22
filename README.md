@@ -25,13 +25,19 @@ Edited & designed by shi (as of Issue #9).
 
 # Current issue
 
+### Issue #13
+Theme: Place  
+Deadline: 31st August 2025  
+Published:    
+Cost: 
+
+# Previous issues
+
 ### Issue #12
 Theme: Smell  
 Deadline: 5th March 2025  
-Published:    
-Cost: £
-
-# Previous issues
+Published: 5th April 2025  
+Cost: £167
 
 ### Issue #11
 Theme: Ghosts  
