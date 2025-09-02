@@ -37,7 +37,7 @@ Cost:
 Theme: Smell  
 Deadline: 5th March 2025  
 Published: 5th April 2025  
-Cost: £167
+Cost: £167 (*price increase due to Footprinters paying themselves minimum wage :)*)
 
 ### Issue #11
 Theme: Ghosts  
