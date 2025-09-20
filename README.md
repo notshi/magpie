@@ -28,8 +28,8 @@ Edited & designed by shi (as of Issue #9).
 ### Issue #13
 Theme: Place  
 Deadline: 31st August 2025  
-Published:    
-Cost: 
+Published: 27th September 2025    
+Cost: £167
 
 # Previous issues
 
@@ -37,7 +37,7 @@ Cost:
 Theme: Smell  
 Deadline: 5th March 2025  
 Published: 5th April 2025  
-Cost: £167
+Cost: £167 (*price increase due to Footprinters paying themselves minimum wage :)*)
 
 ### Issue #11
 Theme: Ghosts  
