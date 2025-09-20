@@ -45,6 +45,7 @@ input:focus-visible {outline:2px solid #918170; background-color:#fff; border-co
 .title			{margin:1em 0;}
 .blog_wrap		{margin:1.5em 0;}
 .blog_wrap a	{font-weight:bold;}
+.blog_wrap span	{display:block; padding-bottom:15px;}
 .blog_date		{margin-bottom:0.6em; font-size:14px;}
 .blog_data		{display:flex; margin-top:1em;}
 .blog_data a:hover	{background-color:transparent;}
@@ -52,6 +53,8 @@ input:focus-visible {outline:2px solid #918170; background-color:#fff; border-co
 .img_wrap		{border:1px solid #222; padding:1em;}
 .img_wrap:hover	{background:#c9c9c9;}
 .call_wrap		{background:#fbfbfb; border:4px double #222; padding:0.5em 1.5em 2em 1.5em; margin:1.5em 0;}
+.blog_title		{font-size:24px; padding-top:15px; font-weight:bold;}
+.blog_bold		{font-weight:bold; padding:15px 0;}
 
 .about_wrap     {margin-top:1.5em; margin-bottom:1.5em; width:100%; background:url("{_root}/data/franklin_thumb1.png") no-repeat right bottom #fbfbfb; padding:1.5em;}
 .about_text     {font-size:18px; padding-top:20px; line-height:1.35em; font-family:monospace;}
