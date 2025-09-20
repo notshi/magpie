@@ -28,8 +28,8 @@ Edited & designed by shi (as of Issue #9).
 ### Issue #13
 Theme: Place  
 Deadline: 31st August 2025  
-Published:    
-Cost: 
+Published: 27th September 2025    
+Cost: £167
 
 # Previous issues
 
