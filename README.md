@@ -31,13 +31,13 @@ Deadline: 5th April 2026
 Published: 23rd May 2026    
 Cost: £40 (100 copies by Salt Riso, Shipley)
 
+# Previous issues
+
 ### Issue #13
 Theme: Place  
 Deadline: 31st August 2025  
 Published: 27th September 2025    
 Cost: £167
-
-# Previous issues
 
 ### Issue #12
 Theme: Smell  
