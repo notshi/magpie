@@ -25,6 +25,12 @@ Edited & designed by shi (as of Issue #9).
 
 # Current issue
 
+### Issue #14
+Theme: People  
+Deadline: 5th April 2026  
+Published: 23rd May 2026    
+Cost: £40 (100 copies by Salt Riso, Shipley)
+
 ### Issue #13
 Theme: Place  
 Deadline: 31st August 2025  
