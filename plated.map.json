@@ -98,7 +98,7 @@
   "_site": "{_root}",
   "_sourcename": "index.^.html",
   "body": "<div class=\"main_wrap\">\n\t<main id=\"main\" class=\"main_content row\">\n\t\t<img src=\"{_root}data/magpie_header.png\"/>\n\t\t<div class=\"link_wrap\" id=\"news\">{news}</div>\n\t\t<div class=\"link_wrap\" id=\"releases\">{releases}</div>\n\t</main>\n\t{footer}\n</div>",
-  "callout": "<div class=\"call_wrap\">\n\t<div class=\"title\"><h3>Current call out</h3></div>\n\t<div class=\"call_info\">\n\t\t<div class=\"\">Theme: <b>People</b></div>\n\t\t<div class=\"\">Deadline: <b>5th April 2026</b></div>\n\t</div>\n</div>\n",
+  "callout": "<div class=\"call_wrap\">\n\t<div class=\"title\"><h3>Current call out</h3></div>\n\t<div class=\"call_info\">\n\t\t<div class=\"\">Theme: <b>Strange</b></div>\n\t\t<div class=\"\">Deadline: <b>25th September 2026</b></div>\n\t</div>\n</div>\n",
   "column": "<div class=\"\">\n{callout}\n{current_issue}\n</div>\n",
   "current_issue": "<div class=\"cont_wrap\">\n\t<div class=\"title\"><h3>Latest Issue</h3></div>\n\t<div class=\"call_info\">\n\t\t<div class=\"\">Read the latest issue below.</div>\n\t\t<div class=\"marge\"><i>(Opens a ~30mb PDF here)</i></div>\n\t</div>\n\t<div class=\"img_wrap\">\n\t\t<a href=\"https://drive.proton.me/urls/60JENVFJG4#6aaU5vHIANVr\">\n\t\t\t<img src=\"{_root}data/issue14_thumb.png\"/>\n\t\t</a>\n\t</div>\n</div>\n",
   "news": "<div class=\"news_cont\">\n\t{column}{news_text}\n</div>",
